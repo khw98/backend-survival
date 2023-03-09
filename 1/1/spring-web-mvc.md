@@ -26,7 +26,7 @@ Spring 프레임워크는 java application을 쉽게 만들기 위한 프레임�
 
 WAS는 DB 조회 등을 요구하는 더욱 복잡하고 동적인 컨텐츠를 클라이언트에게 제공하기 위한 Application server이다
 
-<figure><img src="../.gitbook/assets/톰캣.PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/톰캣.PNG" alt=""><figcaption></figcaption></figure>
 
 Tomcat이 WAS의 대표적인 예이며 java 기반이다
 
@@ -54,7 +54,7 @@ application을 3가지 컴포넌트로 나누어 각자가 고유의 역할을 �
 
 spring에서 제공하는 servlet 기반의 웹 개발용 프레임워크로, 위의 MVC 패턴을 기반으로 MVC 세가지 컴포넌트를 기반삼고이를 보조하는 컴포넌트들로 구성된다
 
-<figure><img src="../.gitbook/assets/캡처 (1).PNG" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/캡처 (1).PNG" alt=""><figcaption></figcaption></figure>
 
 여기서 주요 컴포넌트들이 각 역할은,
 
