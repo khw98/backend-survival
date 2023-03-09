@@ -6,4 +6,4 @@
 * [HTTP client](0.md)
 * [HTTP server](1/http-server.md)
 * [Java HTTP server](1/java-http-server.md)
-* [Spring web MVC](1/spring-web-mvc.md)
+* [Spring web MVC](1/spring-weeb-mvc.md)
