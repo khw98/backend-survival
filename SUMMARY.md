@@ -2,6 +2,8 @@
 
 ## 1주차
 
-* [backend-survival](README.md)
-* [0주차](0.md)
-* [Page 1](1/page-1.md)
+* [HTTP의 이해](README.md)
+* [HTTP client](0.md)
+* [HTTP server](1/http-server.md)
+* [Java HTTP server](1/java-http-server.md)
+* [Spring weeb MVC](1/spring-weeb-mvc.md)
