@@ -44,6 +44,40 @@ application을 3가지 컴포넌트로 나누어 각자가 고유의 역할을 �
 
 Spring MVC
 
+spring에서 제공하는 servlet 기반의 웹 개발용 프레임워크로, 위의 MVC 패턴을 기반으로 MVC 세가지 컴포넌트를 기반삼고이를 보조하는 컴포넌트들로 구성된다
+
+<figure><img src="../.gitbook/assets/캡처 (1).PNG" alt=""><figcaption></figcaption></figure>
+
+여기서 주요 컴포넌트들이 각 역할은,
+
+* Dispatcher Servlet : 클라이언트의 request를 controller로 전달, 전달받은 결과값을 view로 보내서 알맞는 response를 생성하게 함
+* Handler Mapping : request 정보와 url 가지고 어떤 handler 객체 호출할 지 결정
+* Handler Adapter : Controller에서 url에 알맞는 method 선택
+* Controller : request 처리하고 model에 결과값 전달할 객체 저장, view name을 dispatcher servlet에 전달
+* view resolver : 결과값 대한 view 생성
+* view : 결과 화면 response로 클라이언트에게 보냄
+
+
+
+Java Annotation
+
+@override 같이 앞에 @를 붙여서 사용하는 메타데이터의 일종으로 다양한 기능들이 존재하고, 잘못 사용시 컴파일 에러를 일으킨다
+
+
+
+Spring Annotation
+
+Spring 프레임워크에서 쓸수 있는 annotation들이다
+
+* @Controller : 해당 클래스가 Controller 역할을 한다고 spring에게 명시하는 annotation
+* @ResponseBody : response할  내용이 view로 출력되지 않고 HTTP Response Body에 직접 담김
+* @RestController : 위 둘이 합쳐진 형태로 해당 클래스를 Controller로 잡고 response 내용을 HTTP Response body에 담아서 보냄
+
+
+
+* @GetMapping : 해당 annotation 뒤에 () 안에 경로를 쓰면 해당 경로에 대한 GET 요청을 해당 메소드와 매핑시킴
+* @RequestMapping : () 안에U value와 method 둘에 대해 입력하는데, value는 URL, method는 요청 메소드 종류에 대해 지정하여 매핑시킴
+
 
 
 
