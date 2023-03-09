@@ -1,6 +1,6 @@
 # Table of contents
 
-## 1주차
+## 
 
 * [1주차](README.md)
   * [HTTP의 이해](1/1/readme.md)
