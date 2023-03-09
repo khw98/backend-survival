@@ -1,5 +1,11 @@
 # Spring web MVC
 
+**Spring**
+
+Spring 프레임워크는 java application을 쉽게 만들기 위한 프레임워크로, 모듈로 나누어져 있어 필요한 모듈들 만을 선택하여 사용할 수 있고 이전 버젼과의 호환성이 높아 어플리케이션 및 라이브러리의 유지보수를 용이하게 한다
+
+또한 스프링은 javadoc에   의미있고 최신이며 정확한 정보를 담으려 함으로써 코드 품질에 대한 높은 기준을 부여하여, 패키지 간 순환 참조가 없는 깨끗한 구조의 코드를 요구할 수 있게 한다
+
 
 
 **Spring Boot**
@@ -8,13 +14,13 @@
 
 
 
-Spring initializer
+**Spring initializer**
 
 스프링 프레임워크에서 빌드, 언어, 버젼 등을 선택하고사용할 라이브러리를 검색을 통해 쉽게 찾고 추가할 수 있게 해주어 프로젝트 생성을 도와주는 웹 도구이다
 
 
 
-Web Server와 Web Application Server(WAS)
+**Web Server와 Web Application Server(WAS)**
 
 웹 서버는 클라이언트로부터 http 요청을 받으면 그에 대한 이미지 파일이나 html 문서 같은 단순하고 "정적인" 컨텐츠를 제공한다
 
@@ -26,9 +32,11 @@ Tomcat이 WAS의 대표적인 예이며 java 기반이다
 
 
 
-Model-View-Controller(MVC) 아키텍처 패턴
+**Model-View-Controller(MVC) 아키텍처 패턴**
 
 application을 3가지 컴포넌트로 나누어 각자가 고유의 역할을 수행하도록 하고 결과물을 다른 컴포넌트 혹은 유저에게 넘긴다
+
+그 결과 관심사의 분리를 통해 UI와 비즈니스 로직을 분리
 
 1. View : 사용자에게 보여지는 부분(GUI)
 2. Controller : 사용자의 입력에 대한 처리, 요청에 대해 view와 model에게 필요한 내용 전달
@@ -42,7 +50,7 @@ application을 3가지 컴포넌트로 나누어 각자가 고유의 역할을 �
 
 
 
-Spring MVC
+**Spring MVC**
 
 spring에서 제공하는 servlet 기반의 웹 개발용 프레임워크로, 위의 MVC 패턴을 기반으로 MVC 세가지 컴포넌트를 기반삼고이를 보조하는 컴포넌트들로 구성된다
 
@@ -59,22 +67,19 @@ spring에서 제공하는 servlet 기반의 웹 개발용 프레임워크로, �
 
 
 
-Java Annotation
+**Java Annotation**
 
 @override 같이 앞에 @를 붙여서 사용하는 메타데이터의 일종으로 다양한 기능들이 존재하고, 잘못 사용시 컴파일 에러를 일으킨다
 
 
 
-Spring Annotation
+**Spring Annotation**
 
 Spring 프레임워크에서 쓸수 있는 annotation들이다
 
 * @Controller : 해당 클래스가 Controller 역할을 한다고 spring에게 명시하는 annotation
 * @ResponseBody : response할  내용이 view로 출력되지 않고 HTTP Response Body에 직접 담김
 * @RestController : 위 둘이 합쳐진 형태로 해당 클래스를 Controller로 잡고 response 내용을 HTTP Response body에 담아서 보냄
-
-
-
 * @GetMapping : 해당 annotation 뒤에 () 안에 경로를 쓰면 해당 경로에 대한 GET 요청을 해당 메소드와 매핑시킴
 * @RequestMapping : () 안에U value와 method 둘에 대해 입력하는데, value는 URL, method는 요청 메소드 종류에 대해 지정하여 매핑시킴
 
