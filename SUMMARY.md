@@ -11,4 +11,9 @@
 
 ***
 
-* [2주차](2.md)
+* [2주차](2/README.md)
+  * [REST API](2/rest-api.md)
+  * [URI & MIME type](2/uri-and-mime-type.md)
+  * [Collection Pattern](2/collection-pattern.md)
+  * [Collection Pattern 적용](2/collection-pattern-1.md)
+  * [Spring web MVC로 구현](2/spring-web-mvc.md)
