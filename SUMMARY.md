@@ -17,3 +17,8 @@
   * [Collection Pattern](2/collection-pattern.md)
   * [Collection Pattern 적용](2/collection-pattern-1.md)
   * [Spring web MVC로 구현](2/spring-web-mvc.md)
+* [3주차](3.md)
+* [DTO](dto.md)
+* [직렬화](undefined.md)
+* [Jackson ObjectMapper](jackson-objectmapper.md)
+* [CORS](cors.md)
