@@ -16,6 +16,10 @@
 
 코드 베이스는 해당 객체의 구현의 위치에 관한 정보를 담고 있으며, 마샬링은 이러한 정보들을 가지고 있기 때문에 다른 JVM에 마샬링을 통해 데이터를 보내주면 원격으로 해당 객체를 원래 상태로 복원(언마샬링)할 수 있다
 
+<figure><img src="../.gitbook/assets/rmi.PNG" alt=""><figcaption></figcaption></figure>
+
+앞서 정리한 RMI의 구조에 대한 도식으로 원격 메서드호출에 관하여 데이터 변환(마샬링 / 언마샬링)이 이뤄지고 있음을 확인할 수 있다
+
 
 
 **JSON(Javascript object notation)**
